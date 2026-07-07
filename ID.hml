@@ -1,1 +1,9 @@
+const RESPO_ROTATION_ID = {
+    id: "RR-WHIRL-720X",
+    type: "Wirbel-Rotation",
+    core: "Whirlpool-Power",
+    swirl: 720,
+    boost: "X-Speed",
+    signature: "RESPO::ROTATION::WHIRL"
+};
 
