@@ -1,10 +1,5 @@
+// Respo‑Rotation – ID + Whirlpool‑Modell
 
----
-
-# ⭐ Respo‑Rotation **ID**  
-*(allumfassend, wie TP4/TP8/TP12)*
-
-```js
 const RESPO_ID = {
     meta: {
         name: "Respo‑Rotation",
@@ -21,7 +16,17 @@ const RESPO_ID = {
     },
 
     structure: {
-        chain: "BOERSE‑Kette",
+        chain: [
+            "Respo‑ROOT",
+            "Respo‑SCAN",
+            "Respo‑ID",
+            "Respo‑TOOLS",
+            "Respo‑Ghost",
+            "Respo‑KI",
+            "Respo‑ECO",
+            "Respo‑EXP",
+            "Respo‑Rotation"
+        ],
         slots: 9,
         grid: "3×3",
         scan: "Ghost‑Scan"
@@ -42,4 +47,3 @@ const RESPO_ID = {
         ghost: "Scan‑System"
     }
 };
-
