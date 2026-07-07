@@ -1,4 +1,4 @@
-# Respo‑Rotation – Systemische Wirbel‑Rotation
+# Respo‑Rotation – Wirbel‑System
 
 Respo‑Rotation ist ein technisches Rotations‑System, das auf einem physikalischen Whirlpool‑Modell basiert.  
 Es erzeugt **Rotation durch Sog**, nicht durch Animation.  
@@ -6,7 +6,7 @@ Damit ist Respo‑Rotation ein echtes **System‑Wirbel‑Modell**, das Daten, R
 
 ---
 
-## 🔹 Grundidee
+## 🔹 Whirlpool‑Power‑Modell
 
 Wenn Wasser durch eine kleine Öffnung abläuft, entsteht:
 
@@ -15,7 +15,7 @@ Wenn Wasser durch eine kleine Öffnung abläuft, entsteht:
 3. **Rotation**  
 4. **Extra‑Speed (bis 720° vor 2 cm Abfall)**
 
-Dieses physikalische Verhalten wird in Respo‑Rotation technisch nachgebildet.
+Dieses Verhalten wird technisch nachgebildet.
 
 ---
 
@@ -23,38 +23,50 @@ Dieses physikalische Verhalten wird in Respo‑Rotation technisch nachgebildet.
 
 Respo‑Rotation rotiert:
 
-- die BOERSE‑Kette  
+- die interne Kette  
 - die POS‑Positionen  
 - die Reihenfolge der Slots  
 - die Ghost‑Scan‑Impulse  
-- die Status‑Antworten  
 
-Damit entsteht eine **echte Rotation**, die nicht visuell, sondern systemisch ist.
-
----
-
-## 🔹 Whirlpool‑Power‑Modell (WPM)
-
-Respo‑Rotation nutzt ein eigenes Modell:
-
-- **Trigger** – kleiner Impuls  
-- **Pressure** – Druckunterschied  
-- **Pull** – Sog entsteht  
-- **Swirl** – Wirbel bildet sich  
-- **Rotation** – bis 720°  
-- **Boost** – Extra‑Speed  
-
-Dieses Modell erzeugt die charakteristische Respo‑Rotation‑Dynamik.
+Rotation entsteht durch **Umlauf**, nicht durch Grafik.
 
 ---
 
-## 🔹 Rotation‑Code
+## 🔹 Struktur
 
-Die Rotation entsteht durch Umlauf der Kette:
+- 9 Slots  
+- 3×3 Grid  
+- interne Respo‑Kette  
+- Whirlpool‑Boost pro Slot  
+- Rotation alle 2 Sekunden
 
-```js
-function rotateChain() {
-    const first = chain.shift();
-    chain.push(first);
-}
+---
+
+## 🔹 Code‑Dateien
+
+- **index.html** – Grid + Rotation + Boost  
+- **wh.el.js** – ID + Whirlpool‑Modell  
+
+---
+
+## 🔹 Zweck
+
+Respo‑Rotation ist:
+
+- ein **Wirbel‑System**  
+- ein **Umlauf‑Modell**  
+- ein **Druck‑Gradient‑Simulator**  
+- ein **Ghost‑Scan‑Booster**  
+
+Es erzeugt Rotation **durch Sog**, nicht durch Grafik.
+
+---
+
+## 🔹 TP‑System‑Bezug
+
+- TP4 – Grundform  
+- TP8 – Mitte  
+- TP12 – Basis  
+
+Respo‑Rotation nutzt die gleiche Systemlogik.
 
